@@ -8,7 +8,8 @@
 2. [More About MongoDB.](#moreknowledge)
 3. [SQL vs NoSQL.](#Compare)
 4. [Key Features of MongoDB.](#Keymongodb)
-5. [Installing MongoDB.](#installing-mongodb)
+5. [How MongoDB Works.](#mongodb_works)
+6. [Installing MongoDB.](#installing-mongodb)
 
 
 
