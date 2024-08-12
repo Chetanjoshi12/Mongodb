@@ -8,7 +8,7 @@
 2. [More About MongoDB.](#moreknowledge)
 3. [SQL vs NoSQL.](#Compare)
 4. [Key Features of MongoDB.](#Keymongodb)
-5. 
+5. [What is CRUD operation in MongoDB?](#CRUD)
 6. [How MongoDB Works.](#mongodb_works)
 7. [Installing MongoDB.](#installing-mongodb)
 
@@ -71,6 +71,17 @@ It was created by a company called 10gen, which is now known as MongoDB, Inc. Th
 6. **Open Source and Community**:-
 - MongoDB is open source with a vibrant community.
 - Regular updates, improvements, and support.
+
+### What is CRUD operation in MongoDB? ============>
+CRUD operations describe the conventions of a user interface that let users view, search, modify parts, and delete the database. MongoDB provides an elegant way of performing CRUD operations with the programming language of your choice through its drivers.
+MongoDB documents are modified by connecting to a server, querying the proper documents, and then changing the setting properties before sending the data back to the database to be updated.
+
+### When it comes to the individual CRUD operations:===>
+
+The create operation is used to insert new documents in the MongoDB database.
+The read operation is used to query a document in the database.
+The update operation is used to modify existing documents in the database.
+The delete operation is used to remove documents from the database.
 
 ### How MongoDB Works ============>
 
