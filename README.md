@@ -68,6 +68,11 @@ It was created by a company called 10gen, which is now known as MongoDB, Inc. Th
 - MongoDB is open source with a vibrant community.
 - Regular updates, improvements, and support.
 
+### How MongoDB Works ============>
+
+![image](https://github.com/user-attachments/assets/f626df8b-f2a5-4fb9-aae1-8fab43f7fb4a)
+
+
 
   
 
