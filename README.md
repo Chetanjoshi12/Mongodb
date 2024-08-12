@@ -8,8 +8,9 @@
 2. [More About MongoDB.](#moreknowledge)
 3. [SQL vs NoSQL.](#Compare)
 4. [Key Features of MongoDB.](#Keymongodb)
-5. [How MongoDB Works.](#mongodb_works)
-6. [Installing MongoDB.](#installing-mongodb)
+5. 
+6. [How MongoDB Works.](#mongodb_works)
+7. [Installing MongoDB.](#installing-mongodb)
 
 
 
@@ -22,6 +23,7 @@
 
 - MongoDB is an open-source, document-oriented NoSQL database management system. NoSQL databases are quite useful for working with large sets of distributed data. MongoDB is a tool that can manage document-oriented information, and store or retrieve information. 
 - Designed for flexibility, scalability, and performance in handling unstructured or semi-structured data.
+- NoSQL databases are more scalable and provide superior performance. MongoDB is such a NoSQL database that scales by adding more and more servers and increases productivity with its flexible document model.
 - The data stored in the MongoDB is in the format of BSON documents. Here, BSON stands for Binary representation of JSON documents. In other words, in the backend, the MongoDB server converts the JSON data into a binary form that is known as BSON, and this BSON is stored and queried more efficiently.
 
 
