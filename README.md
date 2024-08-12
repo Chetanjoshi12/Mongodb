@@ -128,9 +128,9 @@ sudo systemctl status mongod
 
 - **Click on the link**-  https://www.mongodb.com/try/download/compass
 
-- **After clicking the link, you will be directed to the official MongoDB Compass website. There, you need to select the version, platform, and package, then click on the download button**
+- **After clicking the link, you will be directed to the official MongoDB Compass website. There, you need to select the version, platform, and package, then click on the download button.**
 
-- **Go to the terminal and type this command to install**
+- **Go to the terminal and type this command to install.**
 ```
 sudo dpkg -i (Paste the downloaded package here.)
 ```
