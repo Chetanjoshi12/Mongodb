@@ -78,10 +78,10 @@ MongoDB documents are modified by connecting to a server, querying the proper do
 
 ### When it comes to the individual CRUD operations:===>
 
-**- Create:** The create operation is used to insert new documents in the MongoDB database.
-**- Read:** The read operation is used to query a document in the database.
-**- Update:** The update operation is used to modify existing documents in the database.
-**- Delete:** The delete operation is used to remove documents from the database.
+- **Create:** The create operation is used to insert new documents in the MongoDB database.
+- **Read:** The read operation is used to query a document in the database.
+- **Update:** The update operation is used to modify existing documents in the database.
+- **Delete:** The delete operation is used to remove documents from the database.
 
 ### How MongoDB Works ============>
 
