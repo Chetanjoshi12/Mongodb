@@ -22,6 +22,8 @@
 
 ### What is a Document Database?
 A document database (also known as a document-oriented database or a document store) is a database that stores information in documents.
+![image](https://github.com/user-attachments/assets/84bdf8ef-fe10-4aba-88a1-282d2f890f40)
+
 
 
 - ### SQL vs NoSQL
