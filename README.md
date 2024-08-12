@@ -73,7 +73,7 @@ It was created by a company called 10gen, which is now known as MongoDB, Inc. Th
 
 ![image](https://github.com/user-attachments/assets/f626df8b-f2a5-4fb9-aae1-8fab43f7fb4a)
 
-### Installing MongoDB ============>
+### Installing MongoDB Community Edition ============>
 **1. To install MongoDB, run these commands in your terminal** ====>
 ```
 sudo apt-get install gnupg curl
@@ -108,6 +108,17 @@ sudo systemctl start mongod
 **2. Verify that MongoDB has started successfully** ====>
 ```
 sudo systemctl status mongod
+```
+
+### How to install MongoDB Compass ============>
+
+- **Click on the link**-  https://www.mongodb.com/try/download/compass
+
+- **After clicking the link, you will be directed to the official MongoDB Compass website. There, you need to select the version, platform, and package, then click on the download button**
+
+- **Go to the terminal and type this command to install**
+```
+sudo dpkg -i (Paste the downloaded package here.)
 ```
 
 
