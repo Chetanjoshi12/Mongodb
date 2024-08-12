@@ -73,6 +73,43 @@ It was created by a company called 10gen, which is now known as MongoDB, Inc. Th
 
 ![image](https://github.com/user-attachments/assets/f626df8b-f2a5-4fb9-aae1-8fab43f7fb4a)
 
+### Installing MongoDB ============>
+**1. To install MongoDB, run these commands in your terminal** ====>
+```
+sudo apt-get install gnupg curl
+```
+
+```
+curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
+   sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
+   --dearmor
+```
+
+**2. Create a list file for MongoDB** ====>
+```
+echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+```
+
+**3. Reload local package database** ====>
+```
+sudo apt-get update
+```
+
+**4. Install the MongoDB packages** ====>
+```
+sudo apt-get install -y mongodb-org
+```
+### Run MongoDB ============>
+**1. Start MongoDB** ====>
+```
+sudo systemctl start mongod
+```
+
+**2. Verify that MongoDB has started successfully** ====>
+```
+sudo systemctl status mongod
+```
+
 
 
   
