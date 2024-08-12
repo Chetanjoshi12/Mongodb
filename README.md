@@ -5,7 +5,9 @@
 1. [Introduction to MongoDB.](#MongoDB)
    - [What is MongoDB?](#MongoDB)
    - [What is a Document Database?](#Document)
-   - [SQL vs NoSQL.](#Compare)
+2. [More About MongoDB.](#moreknowledge)
+3. [SQL vs NoSQL.](#Compare)
+
 
 
 
@@ -20,14 +22,21 @@
 2- Designed for flexibility, scalability, and performance in handling unstructured or semi-structured data.
 
 
-### What is a Document Database?
-A document database (also known as a document-oriented database or a document store) is a database that stores information in documents.
+- ### What is a Document Database?
+1- A document database (also known as a document-oriented database or a document store) is a database that stores information in documents.
+
+
 ![image](https://github.com/user-attachments/assets/84bdf8ef-fe10-4aba-88a1-282d2f890f40)
 
 
+### More About MongoDB ============>
+It was created by a company called 10gen, which is now known as MongoDB, Inc. The company was founded by Eliot Horowitz and Dwight Merriman in 2007. The first version of MongoDB was released in 2009. The name MongoDB is derived from the English word “HUMONGOUS”, which roughly means “Gigantic”.
 
-- ### SQL vs NoSQL
 
+
+
+
+### SQL vs NoSQL ============>
 
 |                               **SQL**                                              |                                  **NoSQL**                          |
 |------------------------------------------------------------------------------------|---------------------------------------------------------------------|
@@ -36,6 +45,7 @@ A document database (also known as a document-oriented database or a document st
 |3- Suitable for applications with well-defined schemas and fixed data structures.   |3- Ideal for applications with dynamic or evolving data models. |
 |4- E-commerce Platform, HR Management, etc.                                         |4- CMS, Social Media Platforms, Gaming, etc.|
 |5- Examples: MySQL, PostgreSQL, Oracle.                                             |5- Examples: MongoDB, Cassandra, Redis. |
+
 
 
 
