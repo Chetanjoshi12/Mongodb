@@ -169,7 +169,52 @@ use database_name
 # How to add a new collection on MongoDB?
 To create a new collection we can do:
 ```
-db.createCollection ('
+db.createCollection ('collection_name')
+```
+# To see the list of all collections in MongoDB, run this command:-
+```
+show collections
+```
+# To Drop the collection in MongoDB, run this command:-
+```
+db.collection_name.drop()
+```
+# To Drop the Database in MongoDB, run this command:-
+```
+db.dropDatabase()
+```
+# To create a Document in MongoDB, run this command:- 
+```
+db.collection_name.insertOne({'key1': 'value1', key2: value2.........})
+```
+# To create multiple Documents in MongoDB, run this command:-
+```
+db.collection_name.insertMany([  {'key1': 'value1', key2: vlaue2}, {'key3': 'value3', key4: vlaue4}, {'key5': 'value5', key6: vlaue6}  ])
+```
+# To read all Documents created in MongoDB, run this command:-
+```
+db.collection_name.find()
+```
+# To find documents in MongoDB, run this command:-
+```
+db.collection_name.find({'key1':'value1'})
+```
+```
+db.collection_name.findOne({'key1':'value1'})
+```
+
+# When to use Quotes and when not to? ============>
+- **Special characters:** If a field name contains special characters or spaces, or starts with a numeric digit, using quotes is necessary.
+- **Reserved words:** If a field is a reserved keyword in MongoDB, use quotes to distinguish it from the reserved keyword.
+
+  # Case Sensitivity in MongoDB ============>
+  - Collection names are case-sensitive.
+  - Field names within documents are also case-sensitive.
+  ```
+  db.Data.insertOne({'key1': 'value1', key2: value2});
+  db.data.insertOne({'key1': 'value1', key2: value2});
+  ```
+
 
 
 
