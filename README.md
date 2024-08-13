@@ -4,6 +4,7 @@
 # Table of Contents
 1. [Introduction to MongoDB.](#MongoDB)
    - [What is MongoDB?](#MongoDB)
+   - [JSON Vs BSON.](#json/bson)
    - [What is a Document Database?](#Document)
 2. [More About MongoDB.](#moreknowledge)
 3. [SQL vs NoSQL.](#Compare)
@@ -29,6 +30,13 @@
 - Designed for flexibility, scalability, and performance in handling unstructured or semi-structured data.
 - NoSQL databases are more scalable and provide superior performance. MongoDB is such a NoSQL database that scales by adding more and more servers and increases productivity with its flexible document model.
 - The data stored in the MongoDB is in the format of BSON documents. Here, BSON stands for Binary representation of JSON documents. In other words, in the backend, the MongoDB server converts the JSON data into a binary form that is known as BSON, and this BSON is stored and queried more efficiently.
+
+- ### JSON Vs BSON
+- In MongoDB, we write in JSON format only but behind the scene data is stored in BSON (Binary JSON) format, a binary representation of JSON.
+- By utilizing BSON, MongoDB can achieve higher read and write speeds, reduced storage requirements, and improved data manipulation capabilities, making it well-suited for handling large and complex datasets while maintaining performance efficiency.
+
+![Screenshot from 2024-08-13 16-01-08](https://github.com/user-attachments/assets/d6955b93-9e6c-420f-a021-20624913b3ac)
+
 
 
 - ### What is a Document Database?
