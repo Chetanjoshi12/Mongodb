@@ -13,7 +13,7 @@
 7. [CRUD operations in MongoDB?](#CRUD)
 8. [How MongoDB Works.](#mongodb_works)
 9. [Installing MongoDB.](#installing-mongodb)
-10. [How to use MongoDB?](#usemongodb)
+10. [How do you perform operations in MongoDB?](#usemongodb)
 11. [References.](#Reference)
 
 
