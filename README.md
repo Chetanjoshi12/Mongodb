@@ -149,6 +149,15 @@ sudo systemctl status mongod
 sudo dpkg -i (Paste the downloaded package here.)
 ```
 
+# How to use MongoDB? ============>
+To open MongoDB in the terminal, type ``mongosh`` in your terminal, and it will open the MongoDB console.
+
+# To see the list of all databases in MongoDB, run this command:-
+```
+show dbs
+```
+
+
 
 
   
