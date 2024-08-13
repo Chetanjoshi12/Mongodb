@@ -150,6 +150,7 @@ sudo systemctl status mongod
 ```
 sudo dpkg -i (Paste the downloaded package here.)
 ```
+# How do you perform operations in MongoDB? ============>
 
 # How to use MongoDB? ============>
 To start the MongoDB shell we can do:
