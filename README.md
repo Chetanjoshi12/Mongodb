@@ -189,7 +189,7 @@ db.collection_name.insertOne({'key1': 'value1', key2: value2.........})
 ```
 # To create multiple Documents in MongoDB, run this command:-
 ```
-db.collection_name.insertMany([  {'key1': 'value1', key2: vlaue2}, {'key3': 'value3', key4: vlaue4}, {'key5': 'value5', key6: vlaue6}  ])
+db.collection_name.insertMany([  {'key1': 'value1', key2: vlaue2}, {'key3': 'value3', key4: vlaue4}, {'key5': 'value5', key6: value6}  ])
 ```
 # To read all Documents created in MongoDB, run this command:-
 ```
@@ -215,10 +215,15 @@ db.collection_name.findOne({'key1':'value1'})
   db.data.insertOne({'key1': 'value1', key2: value2});
   ```
 
-  # To update operations in MongoDB, run this command:-
+  # To update operations in MongoDB, run these commands:-
   ```
   db.collection_name.updateOne({paste_document-ID}, {$set: {'key1': 'changing_value'}})
   db.collection_name.updateMany({'key1': 'privious_value'}, {$set: {'key1': 'new_value'}})
+  ```
+  # To Delete operations in MongoDB, run these commands:-
+  ```
+  db.collection_name.deleteOne({document_ID})
+  db.collection_name.deleteMany({'key1': 'value1'})
   ```
   
 
