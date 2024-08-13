@@ -8,10 +8,11 @@
 2. [More About MongoDB.](#moreknowledge)
 3. [SQL vs NoSQL.](#Compare)
 4. [Key Features of MongoDB.](#Keymongodb)
-5. [What is CRUD operation in MongoDB?](#CRUD)
-6. [How MongoDB Works.](#mongodb_works)
-7. [Installing MongoDB.](#installing-mongodb)
-8. [How to use MongoDB?](#usemongodb)
+5. [What are Indexes?](#Indexes)
+6. [What is CRUD operation in MongoDB?](#CRUD)
+7. [How MongoDB Works.](#mongodb_works)
+8. [Installing MongoDB.](#installing-mongodb)
+9. [How to use MongoDB?](#usemongodb)
 
 
 
@@ -72,6 +73,12 @@ It was created by a company called 10gen, which is now known as MongoDB, Inc. Th
 6. **Open Source and Community**:-
 - MongoDB is open source with a vibrant community.
 - Regular updates, improvements, and support.
+
+### What are Indexes? ============>
+Indexes are specialized data structures that optimize data retrieval speed in MongoDB.
+- Indexes store a fraction of data in a more searchable format.
+- They enable MongoDB to locate data faster during queries.
+- Indexes are separate from collections and multiple indexes can exist per collection.
 
 ### What is CRUD operation in MongoDB? ============>
 CRUD operations describe the conventions of a user interface that let users view, search, modify parts, and delete the database. MongoDB provides an elegant way of performing CRUD operations with the programming language of your choice through its drivers.
