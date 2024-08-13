@@ -150,13 +150,26 @@ sudo dpkg -i (Paste the downloaded package here.)
 ```
 
 # How to use MongoDB? ============>
-To open MongoDB in the terminal, type ``mongosh`` in your terminal, and it will open the MongoDB console.
+To start the MongoDB shell we can do:
+To open MongoDB in the terminal run this command:-
+```
+mongosh
+```
 
 # To see the list of all databases in MongoDB, run this command:-
+To see the all list of databases in MongoDB we can do: 
 ```
 show dbs
 ```
-
+# How do you select a particular DB to work on?
+To use a Database we can do:
+```
+use database_name
+```
+# How to add a new collection on MongoDB?
+To create a new collection we can do:
+```
+db.createCollection ('
 
 
 
