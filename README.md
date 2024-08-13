@@ -215,6 +215,13 @@ db.collection_name.findOne({'key1':'value1'})
   db.data.insertOne({'key1': 'value1', key2: value2});
   ```
 
+  # To update operations in MongoDB, run this command:-
+  ```
+  db.collection_name.updateOne({paste_document-ID}, {$set: {'key1': 'changing_value'}})
+  db.collection_name.updateMany({'key1': 'privious_value'}, {$set: {'key1': 'new_value'}})
+  ```
+  
+
 
 
 
