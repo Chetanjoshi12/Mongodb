@@ -10,7 +10,7 @@
 4. [Key Features of MongoDB.](#Keymongodb)
 5. [What are Indexes?](#Indexes)
 6. [Benefits of Indexes.](#Index_Benefit)
-7. [What is CRUD operation in MongoDB?](#CRUD)
+7. [CRUD operations in MongoDB?](#CRUD)
 8. [How MongoDB Works.](#mongodb_works)
 9. [Installing MongoDB.](#installing-mongodb)
 10. [How to use MongoDB?](#usemongodb)
