@@ -239,7 +239,6 @@ db.collection_name.findOne({'key1':'value1'})
 
   # References ============>
 - https://en.wikipedia.org/wiki/MongoDB
-- https://www.mongodb.com/resources/products/fundamentals/crud
 - https://www.codewithharry.com/blogpost/mongodb-cheatsheet/
 - https://www.w3schools.com/mongodb/
 - https://www.geeksforgeeks.org/mongodb-an-introduction/
