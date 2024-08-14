@@ -124,7 +124,8 @@ MongoDB documents are modified by connecting to a server, querying the proper do
 
 ### How MongoDB Works ============>
 
-![Screenshot from 2024-08-14 12-01-07](https://github.com/user-attachments/assets/afdaf7bf-413e-47a5-b1b7-de6758a80d06)
+![Screenshot from 2024-08-14 12-03-56](https://github.com/user-attachments/assets/4087e81d-5018-4896-b651-96f21a072b48)
+
 
 
 ### Installing MongoDB Community Edition ============>
