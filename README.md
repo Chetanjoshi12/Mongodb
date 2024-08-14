@@ -89,10 +89,14 @@ It was created by a company called 10gen, which is now known as MongoDB, Inc. Th
 When executing bulk write operations, "ordered" and "unordered" determine the batch behavior.
 - Ordered Inserts
   The default behavior is ordered, where MongoDB stops on the first error.
+  ```
   db.<collection-name>. insertMany([doc1, doc2, ....]);
+  ```
 - Unordered Inserts
   When executing bulk write operations with an unordered flag, MongoDB continues processing after encountering an error.
+  ```
   db.<collection-name>. insertMany([doc1, doc2, ........1], {ordered: false});
+  ```
   
 
 ### What are Indexes? ============>
