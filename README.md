@@ -9,13 +9,14 @@
 2. [More About MongoDB.](#moreknowledge)
 3. [SQL vs NoSQL.](#Compare)
 4. [Key Features of MongoDB.](#Keymongodb)
-5. [What are Indexes?](#Indexes)
-6. [Benefits of Indexes.](#Index_Benefit)
-7. [CRUD operations in MongoDB?](#CRUD)
-8. [How MongoDB Works.](#mongodb_works)
-9. [Installing MongoDB.](#installing-mongodb)
-10. [How do you perform operations in MongoDB?](#usemongodb)
-11. [References.](#Reference)
+5. [Ordered and Unordered Inserts.](#ordered_unordered)
+6. [What are Indexes?](#Indexes)
+7. [Benefits of Indexes.](#Index_Benefit)
+8. [CRUD operations in MongoDB?](#CRUD)
+9. [How MongoDB Works.](#mongodb_works)
+10. [Installing MongoDB.](#installing-mongodb)
+11. [How do you perform operations in MongoDB?](#usemongodb)
+12. [References.](#Reference)
 
 
 
@@ -83,6 +84,16 @@ It was created by a company called 10gen, which is now known as MongoDB, Inc. Th
 6. **Open Source and Community**:-
 - MongoDB is open source with a vibrant community.
 - Regular updates, improvements, and support.
+
+### Ordered and Unordered Inserts. ============>
+When executing bulk write operations, "ordered" and "unordered" determine the batch behavior.
+- Ordered Inserts
+  The default behavior is ordered, where MongoDB stops on the first error.
+  db.<collection-name>. insertMany([doc1, doc2, ....]);
+- Unordered Inserts
+  When executing bulk write operations with an unordered flag, MongoDB continues processing after encountering an error.
+  db.<collection-name>. insertMany([doc1, doc2, ........1], {ordered: false});
+  
 
 ### What are Indexes? ============>
 Indexes are specialized data structures that optimize data retrieval speed in MongoDB.
