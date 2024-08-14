@@ -160,6 +160,11 @@ sudo dpkg -i (Paste the downloaded package here.)
 ```
 # How do you perform operations in MongoDB? ============>
 
+# How to Check the version of MongoDB? ============> 
+```
+mongod --version
+```
+
 # How to use MongoDB? ============>
 To start the MongoDB shell we can do:
 To open MongoDB in the terminal run this command:-
