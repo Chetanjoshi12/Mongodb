@@ -181,6 +181,20 @@ sudo dpkg -i (Paste the downloaded package here.)
 ```
 mongod --version
 ```
+db version v7.0.12
+Build Info: {
+    "version": "7.0.12",
+    "gitVersion": "b6513ce0781db6818e24619e8a461eae90bc94fc",
+    "openSSLVersion": "OpenSSL 3.0.2 15 Mar 2022",
+    "modules": [],
+    "allocator": "tcmalloc",
+    "environment": {
+        "distmod": "ubuntu2204",
+        "distarch": "x86_64",
+        "target_arch": "x86_64"
+    }
+}
+
 
 # How to use MongoDB? ============>
 To start the MongoDB shell we can do:
@@ -188,6 +202,21 @@ To open MongoDB in the terminal run this command:-
 ```
 mongosh
 ```
+Current Mongosh Log ID:	66bf1789175ac490fa9f2d66
+Connecting to:		mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.13
+Using MongoDB:		7.0.12
+Using Mongosh:		2.2.13
+mongosh 2.2.15 is available for download: https://www.mongodb.com/try/download/shell
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+------
+   The server generated these startup warnings when booting
+   2024-08-09T11:31:13.302+05:30: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2024-08-09T11:31:17.941+05:30: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+   2024-08-09T11:31:17.941+05:30: vm.max_map_count is too low
+------
+
 
 # To see the list of all databases in MongoDB, run this command:-
 To see the all list of databases in MongoDB we can do: 
