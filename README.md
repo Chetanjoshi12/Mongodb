@@ -459,8 +459,35 @@ chetan> db.data.findOne({'Name':'chetan'})
   # To update operations in MongoDB, run these commands:-
   ```
   db.collection_name.updateOne({paste_document-ID}, {$set: {'key1': 'changing_value'}})
+  ```
+ ### Result==========>
+```
+manoj> db.data.updateOne({_id: ObjectId('66bf3a196f0d8f9d549f2d6e')}, {$set: {'Name':'Mukesh'}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+```
+  ```
   db.collection_name.updateMany({'key1': 'privious_value'}, {$set: {'key1': 'new_value'}})
   ```
+### Result==========>
+```
+manoj> db.data.updateMany({age:12}, {$set: {age:20}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 4,
+  modifiedCount: 4,
+  upsertedCount: 0
+}
+
+```
+  
   # To Delete operations in MongoDB, run these commands:-
   ```
   db.collection_name.deleteOne({document_ID})
