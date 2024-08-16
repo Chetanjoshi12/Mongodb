@@ -181,6 +181,8 @@ sudo dpkg -i (Paste the downloaded package here.)
 ```
 mongod --version
 ```
+
+
 db version v7.0.12
 Build Info: {
     "version": "7.0.12",
