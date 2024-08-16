@@ -448,13 +448,6 @@ chetan> db.data.findOne({'Name':'chetan'})
 - **Special characters:** If a field name contains special characters or spaces, or starts with a numeric digit, using quotes is necessary.
 - **Reserved words:** If a field is a reserved keyword in MongoDB, use quotes to distinguish it from the reserved keyword.
 
-  # Case Sensitivity in MongoDB ============>
-  - Collection names are case-sensitive.
-  - Field names within documents are also case-sensitive.
-  ```
-  db.Data.insertOne({'key1': 'value1', key2: value2});
-  db.data.insertOne({'key1': 'value1', key2: value2});
-  ```
 
   # To update operations in MongoDB, run these commands:-
   ```
