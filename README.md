@@ -131,6 +131,41 @@ Write Errors: [
   ```
   db.<collection-name>. insertMany([doc1, doc2, ........1], {ordered: false});
   ```
+### Result==========>
+```
+manoj> db.data.insertMany([{ 'Name': 'harish', age: 12, 'class': 8 }, { _id: ObjectId('66bf38516f0d8f9d549f2d68'), 'Name': 'mukesh', age: 10, 'class': 9 }, { 'Name': 'pinki', age: 12, 'class': 7 }], {ordered:false} )
+Uncaught:
+MongoBulkWriteError: E11000 duplicate key error collection: manoj.data index: _id_ dup key: { _id: ObjectId('66bf38516f0d8f9d549f2d68') }
+Result: BulkWriteResult {
+  insertedCount: 2,
+  matchedCount: 0,
+  modifiedCount: 0,
+  deletedCount: 0,
+  upsertedCount: 0,
+  upsertedIds: {},
+  insertedIds: {
+    '0': ObjectId('66bf3a196f0d8f9d549f2d6d'),
+    '2': ObjectId('66bf3a196f0d8f9d549f2d6e')
+  }
+}
+Write Errors: [
+  WriteError {
+    err: {
+      index: 1,
+      code: 11000,
+      errmsg: "E11000 duplicate key error collection: manoj.data index: _id_ dup key: { _id: ObjectId('66bf38516f0d8f9d549f2d68') }",
+      errInfo: undefined,
+      op: {
+        _id: ObjectId('66bf38516f0d8f9d549f2d68'),
+        Name: 'mukesh',
+        age: 10,
+        class: 9
+      }
+    }
+  }
+]
+
+```
   
 
 ### What are Indexes? ============>
