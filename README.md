@@ -111,7 +111,7 @@ Indexes are specialized data structures that optimize data retrieval speed in Mo
 - Efficient sorting: Indexes facilities rapid sorting based on specific fields.
 - Indexing on Multiple Fields: Complex queries can be executed efficiently by utilizing multiple fields in indexes.
 
-### What is CRUD operation in MongoDB? ============>
+### What are CRUD operations in MongoDB? ============>
 CRUD operations describe the conventions of a user interface that let users view, search, modify parts, and delete the database. MongoDB provides an elegant way of performing CRUD operations with the programming language of your choice through its drivers.
 MongoDB documents are modified by connecting to a server, querying the proper documents, and then changing the setting properties before sending the data back to the database to be updated.
 
