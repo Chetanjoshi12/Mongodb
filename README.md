@@ -56,13 +56,13 @@ It was created by a company called 10gen, which is now known as MongoDB, Inc. Th
 
 ### SQL vs NoSQL ============>
 
-|                               **SQL**                                              |                                  **NoSQL**                          |
+|           **SQL**                                             |               **NoSQL**                          |
 |------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-|1- SQL databases are relational databases.                                          |1- NoSQL databases are non-relational databases. |
-|2- They use structured tables to store data in rows and columns.                    |2- They provide flexibility in data storage, allowing varied data types and structures.|
-|3- Suitable for applications with well-defined schemas and fixed data structures.   |3- Ideal for applications with dynamic or evolving data models. |
-|4- E-commerce Platform, HR Management, etc.                                         |4- CMS, Social Media Platforms, Gaming, etc.|
-|5- Examples: MySQL, PostgreSQL, Oracle.                                             |5- Examples: MongoDB, Cassandra, Redis. |
+|1- SQL databases are relational databases.                      |1- NoSQL databases are non-relational databases. |
+|2- They use structured tables to store data in rows and columns.|2- They provide flexibility in data storage, allowing varied data types and unstructured.|
+|3- Suitable for applications with well-defined schemas and fixed data structures.  |3- Ideal for applications with dynamic or evolving data models. |
+|4- E-commerce Platform, HR Management, etc.                      |4- CMS, Social Media Platforms, Gaming, etc.|
+|5- Examples: MySQL, PostgreSQL, Oracle.                          |5- Examples: MongoDB, Cassandra, Redis. |
 
 
 ### Key Features of MongoDB ============>
