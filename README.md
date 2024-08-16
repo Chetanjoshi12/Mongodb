@@ -491,8 +491,21 @@ manoj> db.data.updateMany({age:12}, {$set: {age:20}})
   # To Delete operations in MongoDB, run these commands:-
   ```
   db.collection_name.deleteOne({document_ID})
+  ```
+### Result==========>
+```
+manoj> db.data.deleteOne({_id: ObjectId('66bf3a196f0d8f9d549f2d6e')})
+{ acknowledged: true, deletedCount: 1 }
+```
+  ```
   db.collection_name.deleteMany({'key1': 'value1'})
   ```
+### Result==========>
+```
+manoj> db.data.deleteMany({age:20})
+{ acknowledged: true, deletedCount: 3 }
+
+```
 
   # References ============>
 - https://en.wikipedia.org/wiki/MongoDB
