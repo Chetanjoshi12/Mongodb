@@ -360,6 +360,8 @@ chetan> db.data.find({'Name':'chetan'})
 db.collection_name.findOne({'key1':'value1'})
 ```
 ```
+chetan> db.data.findOne({'Name':'chetan'})
+{ _id: ObjectId('66bf19e0d8b45cc4479f2d67'), Name: 'chetan', age: 40 }
 
 ```
 
