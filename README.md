@@ -226,46 +226,141 @@ To see the all list of databases in MongoDB we can do:
 ```
 show dbs
 ```
+```
+Todolist  268.00 KiB
+admin      40.00 KiB
+chetan     32.00 KiB
+config    108.00 KiB
+local      96.00 KiB
+my-app     72.00 KiB
+
+```
 # How do you select a particular DB to work on?
 To use a Database we can do:
 ```
 use database_name
+```
+```
+use chetan
+switched to db chetan
+
 ```
 # How to add a new collection on MongoDB?
 To create a new collection we can do:
 ```
 db.createCollection ('collection_name')
 ```
+```
+chetan> db.createCollection ('data')
+{ ok: 1 }
+
+```
 # To see the list of all collections in MongoDB, run this command:-
 ```
 show collections
+```
+```
+chetan> show collections
+data
+
 ```
 # To Drop the collection in MongoDB, run this command:-
 ```
 db.collection_name.drop()
 ```
+```
+chetan> db.data.drop()
+true
+
+```
 # To Drop the Database in MongoDB, run this command:-
 ```
 db.dropDatabase()
+```
+```
+chetan> db.dropDatabase()
+{ ok: 1, dropped: 'chetan' }
+
 ```
 # To create a Document in MongoDB, run this command:- 
 ```
 db.collection_name.insertOne({'key1': 'value1', key2: value2.........})
 ```
+```
+chetan> db.data.insertOne({'Name':'chetan', age:40})
+{
+  acknowledged: true,
+  insertedId: ObjectId('66bf19e0d8b45cc4479f2d67')
+}
+
+```
 # To create multiple Documents in MongoDB, run this command:-
 ```
 db.collection_name.insertMany([  {'key1': 'value1', key2: vlaue2}, {'key3': 'value3', key4: vlaue4}, {'key5': 'value5', key6: value6}  ])
+```
+```
+chetan> db.data.insertMany([
+... {'Name':'manoj', age:40},
+... {'Name':'himanshu', age:50},
+... ])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('66bf1a3ad8b45cc4479f2d68'),
+    '1': ObjectId('66bf1a3ad8b45cc4479f2d69')
+  }
+}
+
 ```
 # To read all Documents created in MongoDB, run this command:-
 ```
 db.collection_name.find()
 ```
+```
+chetan> db.data.find()
+[
+  {
+    _id: ObjectId('66bf19e0d8b45cc4479f2d67'),
+    Name: 'chetan',
+    age: 40
+  },
+  { _id: ObjectId('66bf1a3ad8b45cc4479f2d68'), Name: 'manoj', age: 40 },
+  {
+    _id: ObjectId('66bf1a3ad8b45cc4479f2d69'),
+    Name: 'himanshu',
+    age: 50
+  }
+]
+
+```
+
 # To find documents in MongoDB, run this command:-
 ```
 db.collection_name.find({'key1':'value1'})
 ```
 ```
+chetan> db.data.find({'Name':'chetan'})
+[
+  {
+    _id: ObjectId('66bf19e0d8b45cc4479f2d67'),
+    Name: 'chetan',
+    age: 40
+  },
+  {
+    _id: ObjectId('66bf1ab1d8b45cc4479f2d6a'),
+    Name: 'chetan',
+    age: 60
+  }
+]
+
+```
+
+
+```
 db.collection_name.findOne({'key1':'value1'})
+```
+```
+
 ```
 
 # When to use Quotes and when not to? ============>
