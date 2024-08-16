@@ -181,7 +181,7 @@ sudo dpkg -i (Paste the downloaded package here.)
 ```
 mongod --version
 ```
-
+# Result
 ```
 db version v7.0.12
 Build Info: {
@@ -204,6 +204,7 @@ To open MongoDB in the terminal run this command:-
 ```
 mongosh
 ```
+# Result
 ```
 Current Mongosh Log ID:	66bf1789175ac490fa9f2d66
 Connecting to:		mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.13
@@ -226,6 +227,7 @@ To see the all list of databases in MongoDB we can do:
 ```
 show dbs
 ```
+# Result
 ```
 Todolist  268.00 KiB
 admin      40.00 KiB
@@ -240,6 +242,7 @@ To use a Database we can do:
 ```
 use database_name
 ```
+# Result
 ```
 use chetan
 switched to db chetan
@@ -250,6 +253,7 @@ To create a new collection we can do:
 ```
 db.createCollection ('collection_name')
 ```
+# Result
 ```
 chetan> db.createCollection ('data')
 { ok: 1 }
@@ -259,6 +263,7 @@ chetan> db.createCollection ('data')
 ```
 show collections
 ```
+# Result
 ```
 chetan> show collections
 data
@@ -268,6 +273,7 @@ data
 ```
 db.collection_name.drop()
 ```
+# Result
 ```
 chetan> db.data.drop()
 true
@@ -277,6 +283,7 @@ true
 ```
 db.dropDatabase()
 ```
+# Result
 ```
 chetan> db.dropDatabase()
 { ok: 1, dropped: 'chetan' }
@@ -286,6 +293,7 @@ chetan> db.dropDatabase()
 ```
 db.collection_name.insertOne({'key1': 'value1', key2: value2.........})
 ```
+# Result
 ```
 chetan> db.data.insertOne({'Name':'chetan', age:40})
 {
@@ -298,6 +306,7 @@ chetan> db.data.insertOne({'Name':'chetan', age:40})
 ```
 db.collection_name.insertMany([  {'key1': 'value1', key2: vlaue2}, {'key3': 'value3', key4: vlaue4}, {'key5': 'value5', key6: value6}  ])
 ```
+# Result
 ```
 chetan> db.data.insertMany([
 ... {'Name':'manoj', age:40},
@@ -316,6 +325,7 @@ chetan> db.data.insertMany([
 ```
 db.collection_name.find()
 ```
+# Result
 ```
 chetan> db.data.find()
 [
@@ -338,6 +348,7 @@ chetan> db.data.find()
 ```
 db.collection_name.find({'key1':'value1'})
 ```
+# Result
 ```
 chetan> db.data.find({'Name':'chetan'})
 [
@@ -354,11 +365,10 @@ chetan> db.data.find({'Name':'chetan'})
 ]
 
 ```
-
-
 ```
 db.collection_name.findOne({'key1':'value1'})
 ```
+# Result
 ```
 chetan> db.data.findOne({'Name':'chetan'})
 { _id: ObjectId('66bf19e0d8b45cc4479f2d67'), Name: 'chetan', age: 40 }
